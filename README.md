@@ -1,124 +1,124 @@
-1.
+Question 1.
 
-Write a C / C++ program to accept a C program and perform error detection& correction for the following: 
+    Write a C / C++ program to accept a C program and perform error detection& correction for the following: 
 
-a)Check for un-terminated string constant and single character constant in the input C program. i.e A string constant begins with double quotes and extends to more than one line. 
+    a)Check for un-terminated string constant and single character constant in the input C program. i.e A string constant begins with double quotes and extends to more than one line. 
 
-b)Report the error line numbers and the corrective actions to user.
+    b)Report the error line numbers and the corrective actions to user.
 
 
-2.	
+Question 2.	
 
-Write a C / C++ program to accept a C program and perform error detection& correction , indicate the user for the following : 
+    Write a C / C++ program to accept a C program and perform error detection& correction , indicate the user for the following : 
 
-a)Check whether the multi-line comment statement is terminated correctly or not. 
+    a)Check whether the multi-line comment statement is terminated correctly or not. 
 
-b)Check whether the single line comment statement is existing in your C program and report the line numbers to the user.
+    b)Check whether the single line comment statement is existing in your C program and report the line numbers to the user.
 
 
-3.	
+Question 3.	
 
-Write a Lex program to accept a C program and perform error detection& correction for the following: 
+    Write a Lex program to accept a C program and perform error detection& correction for the following: 
 
-a)Check for valid arithmetic and relational expressions in the input C program
+    a)Check for valid arithmetic and relational expressions in the input C program
 
-b)Recognize increment and decrement operations also. 
+    b)Recognize increment and decrement operations also. 
 
-c)Report the errors in the statements’ to user.
+    c)Report the errors in the statements’ to user.
 
 
-4.	
+Question 4.	
 
-Write a Lex program to accept a C program and perform the following error detection & correction: 
+    Write a Lex program to accept a C program and perform the following error detection & correction: 
 
-a)Check the validity of “structure” declarative statements in your program. 
+    a)Check the validity of “structure” declarative statements in your program. 
 
-b)Indicate the invalid statements along with their line numbers to users.
+    b)Indicate the invalid statements along with their line numbers to users.
 
 
-5.	
+Question 5.	
 
-Write a Lex program to accept a C program and perform the following error detection & correction: 
+    Write a Lex program to accept a C program and perform the following error detection & correction: 
 
-a)Check for the valid “if ….else if…else” statement in the input C program. 
+    a)Check for the valid “if ….else if…else” statement in the input C program. 
 
-b)Report the errors to users.
+    b)Report the errors to users.
 
 
-6.	
+Question 6.	
 
-Write Yacc and Lex programs to accept an arithmetic expression and perform the following error detection: 
+    Write Yacc and Lex programs to accept an arithmetic expression and perform the following error detection: 
 
-a) Check the validity of the “arithmetic expressions” in the input C statement. 
+    a) Check the validity of the “arithmetic expressions” in the input C statement. 
 
-b) Report the errors in the statements to user. 
+    b) Report the errors in the statements to user. 
 
-c) Evaluate the arithmetic expression. 
+    c) Evaluate the arithmetic expression. 
 
-d) Recognize increment and decrement operators involved in the expressions.
+    d) Recognize increment and decrement operators involved in the expressions.
 
 
-7.	
+Question 7.	
 
-Write Yacc and Lex programs to accept a declarative statement and perform the following error detection: 
+    Write Yacc and Lex programs to accept a declarative statement and perform the following error detection: 
 
-a) Check the validity of the “declarative” statement. 
+    a) Check the validity of the “declarative” statement. 
 
-b) Recognize array declarations of any dimension. 
+    b) Recognize array declarations of any dimension. 
 
-c) Report the errors to users.
+    c) Report the errors to users.
 
 
-8.	
+Question 8.	
 
-Write Yacc and Lex programs to accept a relational expression and perform the following error detection: 
+    Write Yacc and Lex programs to accept a relational expression and perform the following error detection: 
 
-a) Check the validity of the “relational” expression and evaluate the expression. 
+    a) Check the validity of the “relational” expression and evaluate the expression. 
 
+    
+Question 9.	
 
-9.	
+    Write Yacc and Lex programs to accept a logical expression and perform the following error detection: 
 
-Write Yacc and Lex programs to accept a logical expression and perform the following error detection: 
+    a) Check for the validity of the logical expression and evaluate it.
 
-a) Check for the validity of the logical expression and evaluate it.
 
+Question 10.	
 
-10.	
+    Write Yacc and Lex programs for the following grammar:
 
-Write Yacc and Lex programs for the following grammar:
+    a) Test the executable code of Yacc program by giving valid and invalid strings as input.
 
-a) Test the executable code of Yacc program by giving valid and invalid strings as input.
+    Grammar :
 
-Grammar :
+    SSS+ | SS*| (S) |a
 
-SSS+ | SS*| (S) |a
 
+Question 11.	
 
-11.	
+    Write Yacc and Lex programs for the following grammar:
 
-Write Yacc and Lex programs for the following grammar:
+    a) Test the executable code of Yacc program by giving valid and invalid strings as input.
 
-a) Test the executable code of Yacc program by giving valid and invalid strings as input.
+    Grammar :
 
-Grammar :
+    SL=R | R
 
-SL=R | R
+    L *R | id  |num
 
-L *R | id  |num
+    RL
 
-RL
 
+Question 12.	
 
-12.	
+    Write Yacc and Lex programs for the following grammar:
 
-Write Yacc and Lex programs for the following grammar:
+    a)Test the executable code of Yacc program by giving valid and invalid strings as input.
 
-a)Test the executable code of Yacc program by giving valid and invalid strings as input.
+    Grammar :
 
-Grammar :
+    DTL
 
-DTL
+    Tint | float | long int | double | static int | register int
 
-Tint | float | long int | double | static int | register int
-
-LL,id | id
+    LL,id | id
